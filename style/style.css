@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "New Amsterdam", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    color: white;
+}
+
+body{
+    background-image:url(../Media/Background\ Image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+
+#projectBody{
+    width: 100%;
+    height: 100%;
+    margin-top: 100px;
+    display: flex;
+}
+
+#leftSec{
+    height: 80%;
+    width: 67%;
+    padding-left: 100px;
+}
+
+#leftSec h1{
+    font-size: 70px;
+}
+
+#leftSec h2{
+    font-size: 50px;
+}
+
+#calender{
+    width: auto;
+    height: 120px;
+    background-color:rgb(221, 221, 221,0.3);
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
+
+#calender h1{
+    font-size: 50px;
+}
+
+#clock h2{
+    font-size: 25px;
+}
+
+.sitesPanel{
+    width: 300px;
+    margin-bottom: 7px;
+}
+
+.sitesPanel button{
+    width: 100%;
+    border: none;
+    text-align: left;
+    padding-left: 10px;
+    font-size: 28px;
+    font-weight: 500;
+    color: black;
+}
+
+.sitesPanel a{
+    margin: 10px 0px;
+    padding-left: 10px;
+    font-size: 22px;
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-weight: 50;
+}
+
+.sitesPanel .listDropDown{
+    display: none;
+}
+
+.sitesPanel:hover .listDropDown{
+    display: block;
+}
+
+a:hover{
+    background-color: grey;
+}
+
