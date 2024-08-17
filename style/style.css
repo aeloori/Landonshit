@@ -1,3 +1,11 @@
+::placeholder { /* Edge 12 -18 */
+    color: white;
+  }
+
+  input:focus{
+    outline: none;
+  }
+
 *{
     margin: 0;
     padding: 0;
@@ -84,9 +92,31 @@ body{
 
 .sitesPanel:hover .listDropDown{
     display: block;
+    position: absolute;
+    background-color: black;
+    width: 300px;
 }
 
 a:hover{
     background-color: grey;
 }
 
+.search{
+    width: 100%;
+    height: fit-content;
+    margin-top: 190px;
+    display: flex;
+    justify-content: center;
+}
+
+#webSearch{
+    width: 500px;
+    height: 45px;
+    color: white;
+    font-weight: normal;
+    border-radius: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: rgba(0  ,0,0,.8);
+    border: none;
+}

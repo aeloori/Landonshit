@@ -24,3 +24,22 @@ getClock();
 
 setInterval(getClock,1000);
 
+document.addEventListener("keydown",e =>{
+    console.log(e.key);
+    if(e.key.toLowerCase()=='/'){
+        document.getElementById("webSearch").focus();
+        document.getElementById('webSearch').addEventListener("keydown", e=>{
+           if(e.key=="Enter")
+            {
+                let query=document.getElementById('webSearch').value;
+                let url="https://www.google.com/search?q="+query;
+                window.open(url, "_self");
+            }
+            else if(e.key=="Escape"){
+                document.getElementById("webSearch").blur();
+            }
+        });
+    }
+});
+
+
